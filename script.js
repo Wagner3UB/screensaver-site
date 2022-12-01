@@ -10,7 +10,7 @@ function resetIdleTime() {
 }
 
 const focusHandle = () => {
-  document.getElementById('risparmio').focus();
+  document.getElementById('screensaver').focus();
 };
 
 function checkIfIdle() {
@@ -18,14 +18,14 @@ function checkIfIdle() {
 
   /*SET TIME 1SEC = 1000*/
   if (idleTime >= 5000) {
-    document.getElementById('risparmio').style.width = '100%';
+    document.getElementById('screensaver').style.width = '100%';
     focusHandle();
     clearInterval(setInterval(checkIfIdle, 1000));
   }
 }
 
 const energySavingScreenOFF = () => {
-  document.getElementById('risparmio').style.width = '0';
+  document.getElementById('screensaver').style.width = '0';
   resetIdleTime();
   clearInterval(setInterval(checkIfIdle, 1000));
 };
