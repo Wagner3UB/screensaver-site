@@ -1,6 +1,56 @@
+/*RESET*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+section,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+hr,
+li,
+a,
+img,
+strong,
+em,
+span,
+form,
+input,
+textarea,
+label,
+button {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: inherit;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+img {
+  border: none;
+}
+
+/*RESET END*/
+
 #main-content {
   height: 100vh;
-  background-color: bisque;
+  background-color: #999;
+  padding: 20em;
 }
 
 #risparmio {
