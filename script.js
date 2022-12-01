@@ -15,6 +15,8 @@ const focusHandle = () => {
 
 function checkIfIdle() {
   idleTime += 1000;
+
+  /*SET TIME 1SEC = 1000*/
   if (idleTime >= 5000) {
     document.getElementById('risparmio').style.width = '100%';
     focusHandle();
